@@ -1,0 +1,316 @@
+*{
+    padding:0;
+    margin:0;
+}
+/* html,body{
+    
+        height: 190vh;
+        width: 150vh;
+        background-image:  url("images/beach.jpeg");
+        background-position: 0% 9%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+        
+    
+} */
+ .body{
+    background: whitesmoke;
+ }
+ .navbar-brand .logo{
+    font-size: 20px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ } 
+ 
+.navbar
+{
+    background-color:  rgb(1, 30, 1);
+    
+   
+}
+.navbar-brand{
+    font-size: 50px;
+    color:rgb(131, 5, 5);
+    font-style: inherit;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-link{
+    color:white;
+    
+}
+.nav-link:hover{
+    color:rgb(131, 5, 5);
+}
+/* .nav-item{
+    color:white;
+
+}
+.nav-linkdisabled{
+    color:white;
+
+} */
+/* <////...carousal....///> */
+.carousel-item .d-blockn{
+    width: 100%;
+    height: 400px;
+
+
+}
+.carousel-item .d-blockm{
+    height: 400px;
+    width:100%; 
+
+}
+.carousel-item .d-blockf{
+    height: 400px;
+    width:100%; 
+
+}
+/* <////...carousal....///> */
+
+/* <..../Banner starts....//> */
+.head{
+background-image: url("./images/neelakurinji.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 400px;
+
+}
+
+.back{
+    /* background-color: rgb(114, 125, 32); */
+    height: 140px;
+}
+.back h1{
+    text-shadow: 2px 2px 5px rgb(72, 25, 103);
+    text-align: center;
+    font-size: 80px;
+}
+
+.back h3{
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(104, 33, 220);
+    margin-top: -20px;
+  
+}
+.back h2{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: 300px;
+     word-spacing: 5px;
+     color: rgb(83, 7, 78);
+    
+
+}
+.visit::after{
+    content: '';
+    animation:visit 10s infinite linear;
+
+}
+@keyframes visit {
+    0%{
+        content:"Thiruvanathapuram";
+    }
+    10%{
+        content: "Kuttanadu";
+    }
+    20%{
+        content: "Fort Kochi";
+    }
+    30%{
+        content: "Munnar";
+    }
+    40%{
+        content:  "Wayanadu";
+    }
+    50%{
+        content:  "kozhikkodu";
+    }
+    60%{
+        content:  "Kannur";
+    }
+    70%{
+        content:  "Palakkadu";
+    }
+
+    
+}
+.visit{
+    letter-spacing: 3px;
+    color:#120961;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:oblique;
+}
+
+/* <..../Banner ends....//> */
+
+.con{
+    background-color: rgb(45, 45, 120);
+    height: 200px;
+    padding:80px;
+}
+/* <///Banner ends>.. */
+.row{
+    display: flex;
+}
+.card{
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+
+.card-img-top{
+    height: 300px;
+    width: 400px;
+    border-radius: 3px;
+    transition: .5s ease-out;
+}
+
+
+.card-body{
+    height: 230px;
+    width: 300px;
+    box-sizing: border-box;
+     
+    background-color: gray;
+    color: white;
+    bottom: 240px; 
+    transition: .5s ease-out;
+    background-image: url("./images/kadakali.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 300px;
+    
+    
+    
+}
+.card1{
+    height: 230px;
+    width: 300px;
+    box-sizing: border-box;
+     
+    background-color: gray;
+    color: white;
+    bottom: 240px;
+    transition: .5s ease-out;
+    background-image: url("./images/cocanut.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: 300px;
+    
+}
+.card2{
+    height: 230px;
+    width: 300px;
+    box-sizing: border-box;
+     
+    /* background-color: gray; */
+    color: white;
+    bottom:190px;
+    transition: .5s ease-out;
+    background-image: url("./images/beach.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: 300px;
+    
+}
+.card1 h5{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(159, 7, 7);
+
+}
+ .card2 h5{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(159, 7, 7);
+
+}
+
+.card-body h5{
+    font-size: 50px;
+    text-align: center;
+    color:rgb(159, 7, 7);
+    ;
+}
+.card1 p{
+    visibility: hidden;
+    opacity: 0;
+    margin:20px;
+    text-align: center;
+    
+}
+.card2 p{
+    visibility: hidden;
+    opacity: 0;
+    margin:20px;
+    text-align: center;
+    
+}
+.card-body p{
+    visibility: hidden;
+    opacity: 0;
+    margin:20px;
+    text-align: center;
+    
+}
+/* <.../card1//> */
+
+.card:hover {
+    cursor: pointer;
+    
+} 
+.card:hover .card-body{
+    height: 240px;
+    bottom: 220px;
+    background: rgb(70, 1, 1);
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+    
+} 
+.card:hover .card-img-top{
+    transform : scale(1,1) rotate(6deg);
+}
+/* </////card 2///> */
+
+.card:hover {
+    cursor: pointer;
+    
+} 
+.card:hover .card1{
+    height: 200px;
+    bottom: 220px;
+    background: rgb(70, 1, 1);
+}
+
+.card:hover .card-img-top{
+    transform : scale(1,1) rotate(-3deg);
+}
+/* <...///card2.../> */
+.card:hover {
+    cursor: pointer;
+    
+} 
+.card:hover .card2{
+    height: 200px;
+    bottom: 220px;
+    background:rgb(70, 1, 1);
+};
+
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+    
+} 
+.card:hover .card-img-top{
+    transform : scale(1,1) rotate(-3deg);
+}
+
+
+  
+  

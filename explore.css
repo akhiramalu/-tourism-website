@@ -55,12 +55,12 @@ body{
 {
     animation: drop 0.5s ease forwards;
 } 
- .wrapper.one h1{
+ /* .wrapper.one h1{
      justify-content: center; 
-}  
+}   */
 .drop-main {
     display: flex; 
-    font-size: 7rem;
+    font-size: 5rem;
      margin: 1.5rem; 
     justify-content: center;
     font-style: oblique;
@@ -128,10 +128,11 @@ body{
     }
 }
 .title1 h1{
-    padding-top: 30px;
-    padding-left: 400px;
-    font-size: 65px;
+    /* padding-top: 30px;
+    padding-left: 400px; */
+    /* font-size: 65px; */
     color: #512e97; 
+    text-align: center;
 }
 .title1{
     background-image: url("./images/waterfall1.jpeg");

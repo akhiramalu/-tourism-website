@@ -107,3 +107,22 @@
   .con .mail{
     width:300px;
   }
+
+  .container{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  .imgn{
+    width:650px;
+    height: 500px;
+  } 
+  .festive h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+  
+  }
+  .festive{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }

@@ -224,7 +224,7 @@ body{
 .card:hover .card-img-overlay2{
     height: 450px;
     width: 300px;
-    background-image: url("./images/beach.jpeg"); 
+    background-image: url("./images/pulikali.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -247,7 +247,7 @@ body{
 .card:hover .card-img-overlay3{
     height: 450px;
     width: 300px;
-    background-image: url("./images/field.jpeg"); 
+    background-image: url("./images/mekavu.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -270,7 +270,7 @@ body{
 .card:hover .card-img-overlay4{
     height: 450px;
     width: 300px;
-    background-image: url("./images/beach.jpeg"); 
+    background-image: url("./images/fishes.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     
